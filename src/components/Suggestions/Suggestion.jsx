@@ -35,7 +35,7 @@ const Suggestion = () => {
         <div className='ms-4 mt-4'>
             <div className='flex items-center mt-10 mb-3'>
                 <img className='w-10 h-10 rounded-full'  src={firstProfile.image} alt="" />
-               <div className='flex flex-col'>
+               <div className='flex flex-col ms-3'>
                <p className='text-xs'>{firstProfile.username}</p>
                <p className='text-xs'>{firstProfile.title}</p>
                </div>
